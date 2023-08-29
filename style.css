@@ -110,8 +110,7 @@ html {
   background:white;
 }
 
-.nav-link,
-.navbar-brand {
+.nav-link {
   color: black;
   font-weight: bold;
 }
