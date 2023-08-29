@@ -2,39 +2,164 @@
 <html>
 
 <head>
-    <title>Personal Blog</title>
+    <title>Helen Luong's Webpage</title>
+
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
-        <h1>Your Personal Blog</h1>
-        <nav>
-            <a href=”domain.tld/home”>Home</a>
-            <a href=”domain.tld/blog”>Blog</a>
-            <a href=”domain.tld/about”>About</a>
-        </nav>
-    </header>
-    <main>
-        <div class="row">
-            <div class=”post-text-box”>
-                <h1>Newest Post</h1>
-                <section>
-                    <h1>First Post</h1>
-                    <p>The first post's content</p>
-                </section>
+    <nav class="navbar fixed-top navbar-expand-md ">
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
+                        PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-image w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle">
+            <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Hi! I am HELEN LUONG.</span>
+        </div>
+        <div class="w3-display-position" style="bottom:100px;left:100px">
+            <h2 class="bounce"> Computer Science Co-op Student </br> </h2>
+            <img class="slideInLeft" src="./src/img/Yorku.png">
+        </div>
+        <p></p>
+    </div>
+    </br>
+    </br>
+
+    <div id="about">
+        </br></br>
+        <h1 class="about">Learn <span style="color:blue;">More</span> <br /> About <span style="color:blue;">Me</span>
+    </div>
+    </h1>
+    <div class="w3-col m6 w3-center w3-padding-large">
+        <p>
+            <i class="fa fa-user w3-margin-right"></i>
+            <button class="btn"><a class="links" href="https://www.linkedin.com/in/-helen-luong-/" target="_blank">
+                    <b> Helen Luong </b> </a></button>
+        </p>
+        <img class="myimage" src="./src/img/me.jpg">
+        </br>
+        </br>
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top"><a class="links"
+                href="https://drive.google.com/file/d/121fwlfeLhw_om2qhy_Qxs5C40Bv9SF_M/view?usp=sharing"
+                target="_blank">
+                <i class="fa fa-download"></i> Download Resume</a>
+        </button>
+    </div>
+    </br>
+
+    <div class="about-text">
+        <h4><b><em>Who am I?</em></b></h4>
+        <p>👩‍🎓 I'm a 2nd-year <b>Computer Science Co-op Student</b> from York University,</br> deeply enthusiastic
+            about <u>software and web development</u>. </br></br>
+            🖥️ I'm currently seeking <b>Winter 2024 & Summer 2024 </b>Co-op Positions </br>for <u>Front-End, Full
+                Stack, Web & Software Development. </u></br></br>
+            <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>I'm based in Toronto. </br></br>
+            🌍 Languages: English & Vietnamese
+        </p>
+        </br>
+        <div id="skills">
+            <h3><b><em>My Technical Skills</em></b></h3>
+            <img class="skills" src="./src/img/java.jpg"><b>Java</b></img>
+            <img class="skills" src="./src/img/javascript.png"><b>Javascript</b></img>
+            <img class="skills" src="./src/img/html.png"><b>HTML</b></img>
+            <img class="skills" src="./src/img/react.png"><b>ReactJs</b></img>
+        </div>
+    </div>
+    </div>
+    </br></br></br></br></br>
+
+    <div id="projects">
+        </br></br>
+        <h1 class="projects">My Projects</h1>
+        <p class="w3-center"><em>Here are some of my latest projects</em></p><br>
+        <div class="w3-row-padding">
+            <div class="w3-col s4 w3-center">
+                <div class="w3-card">
+                    <div class="container">
+                        <img src="./src/img/Campfire.jpg" class="image">
+                        <div class="middle">
+                            <button class="btn"><a href="https://tdhluong.github.io/camping-ambience/"
+                                    target="_blank"><i class="far fa-eye" style="font-size:24px"></i></a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w3-container">
+                        <h3>Camping Ambience</h3>
+                        <p class="w3-opacity">Made with HTML, CSS, JavaScript, React framework.</p>
+                        <p>Introducing an interactive project that allows users to toggle between day
+                            and
+                            night modes while seamlessly controlling a music slider, enveloping yourself in the calming
+                            blend of
+                            peaceful melodies on a digital camping retreat, all at your fingertips.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class=”profile”>
-                <h1>About Me</h1>
-                <img src=”profile-picture.png”>
-                <p>About the author</p>
+            <div class="w3-col s4 w3-center">
+                <div class="w3-card">
+                    <div class="container">
+                        <img src="./src/img/myweb.png" class="image">
+                        <div class="middle">
+                            <button class="btn"><a href="https://tdhluong.github.io/my-website/" target="_blank"><i
+                                        class="far fa-eye" style="font-size:24px"></i></a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w3-container">
+                        <h3>My Website</h3>
+                        <p class="w3-opacity">Made with HTML, CSS.</p>
+                        <p>Introducing my personal website where you can explore my portfolio, delve into my background
+                            and projects, and find ways to get in touch.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <a href=”twitter.com/author”>Twitter</a>
-        <a href=”facebook.com/author”>Facebook</a>
-        <a href=”instagram.com/author”>Instagram</a>
-    </footer>
+
+        </br></br></br></br></br>
+        <div id="contact"></div>
+        <h1 class="contact">Contact Me</h1>
+        <p class="w3-center"><em>I'd love to have a chat with you!</em></p>
+        <div class="center">
+            <button class="button button1"><a class="links" href="#"><i class="fa fa-envelope-o"></i>
+                    ltdiemhang00@gmail.com</a></button>
+            <button class="button button1"><a class="links" href="https://www.linkedin.com/in/-helen-luong-/"
+                    target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin </a></button>
+            <button class="button button1"><a class="links" href="https://github.com/tdhluong" target="_blank"><i
+                        class="fa fa-github-square"></i> Github</a></button>
+            <button class="button button1"><a class="links"
+                    href="https://drive.google.com/file/d/121fwlfeLhw_om2qhy_Qxs5C40Bv9SF_M/view?usp=sharing"
+                    target="_blank"><i class="fa fa-file-text"></i> Resume </a></button>
+        </div>
+
+        <div class="footer">
+            <h5 class="footer-text"> Designed and Built by Helen Luong</h5>
+        </div>
+
 </body>
 
 </html>
