@@ -46,7 +46,7 @@ img {
 }
 
 .bg-image {
-  background-image: url('../src/img/me2.jpg');
+  background-image: url('../my-website/src/img/me2.jpg');
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
