@@ -1,3 +1,15 @@
 # Personal Portfolio: https://tdhluong.github.io
 
 - Explored HTML and CSS in this personal project.
+
+<p align="center">
+  <img width="500" height="400" src="src/assets/myweb.png">
+</p>
+
+## Built with
+
+- HTML, CSS
+
+## Author
+
+- [Helen Luong](https://github.com/tdhluong) (www.linkedin.com/in/-helen-luong-)
