@@ -3,7 +3,7 @@
 - Explored HTML and CSS in this personal project.
 
 <p align="center">
-  <img width="900" height="600" src="./src/img/myweb.png">
+  <img width="900" height="500" src="./src/img/myweb.png">
 </p>
 
 ## Built with
