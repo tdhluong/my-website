@@ -65,7 +65,6 @@ img {
   height: 100px;
 }
 
-
 .btn {
   transition: transform 0.2s;
   color: black;
@@ -76,9 +75,22 @@ img {
   transform: translateY(-5px);
 }
 
+.w3-center {
+  display: flex;
+  justify-content: center; 
+  width: 100%; 
+  margin-top: 20px;
+}
+
+.w3-col.m6 {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
 .skills {
-  width: 4.5%;
-  height: 4.5%;
+  width: 3%;
+  height: 3%;
   border-radius: 50%;
   flex-direction: column;
   margin: 1rem;
@@ -86,7 +98,7 @@ img {
 }
 
 .skills:hover {
-  box-shadow: 0 0 25px #d35d69;
+  box-shadow: 0 0 25px #e45460;
 }
 
 .proj1 {
@@ -119,12 +131,11 @@ html {
   justify-content: space-around;
 }
 
-.about, .projects, .contact {
+.projects, .contact {
   text-align: center;
 }
 
-.about-text{
-  background-color: rgb(249, 236, 250);
+.about{
   text-align: center;
   margin-top:20px;
   overflow: hidden;
@@ -208,5 +219,152 @@ i {
 .links {
   color: black;
   text-decoration: none;
+}
+
+/* Add smooth scale effect for the project blocks */
+.w3-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.w3-card:hover {
+  transform: scale(1.05);
+}
+
+
+/* Styling for resume button */
+.resume-btn {
+  border-radius: 25px;
+}
+
+.resume-btn:hover {
+  transform: scale(1.05); 
+}
+
+.resume-btn a {
+  color: rgb(40, 14, 184); 
+  font-size: 20px; 
+}
+
+.resume-btn img {
+  width: 40px;  /* Larger icon */
+  height: 40px;  /* Larger icon */
+  margin-right: 15px;  /* Increase space between icon and text */
+}
+
+/* About section */
+#about p {
+  font-size: 1.2rem; 
+  text-align: center; 
+  margin-top: 20px;
+}
+
+/* Skills Section */
+#skills {
+  background-color: rgb(245, 245, 245); 
+  padding: 30px;  
+  border-radius: 15px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  margin-top: 40px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+#skills:hover {
+  transform: scale(1.05);  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);  
+}
+
+#skills h3 {
+  font-size: 2rem;  
+  font-weight: bold;
+  color: #333;
+}
+
+#skills h5 {
+  font-size: 1.5rem;  
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #322B2B;
+}
+
+.arrow {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+}
+
+.arrow span {
+  display: block;
+  width: 1vw;
+  height: 1vw;
+  border-bottom: 5px solid rgb(14, 13, 13);
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.arrow.left {
+  top: -15%; 
+  left: 34%;  
+  transform: rotate(-45deg);
+  animation-delay: 0s;
+}
+
+.arrow.right {
+  top: -5%; 
+  left: 66%;  
+  transform: rotate(45deg); 
+  animation-delay: -0.2s;
+}
+
+#contact p {
+  font-size: 1.2rem; 
+  text-align: center; 
+  margin-top: 20px;
+}
+
+/* Uniform size for project blocks */
+.w3-card {
+  height: 500px; 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  box-sizing: border-box; /
+}
+
+.w3-card img.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; 
 }
 

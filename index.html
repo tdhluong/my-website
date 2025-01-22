@@ -35,6 +35,7 @@
         </div>
     </nav>
 
+    <!-- Home Section -->
     <div class="bg-image w3-display-container w3-opacity-min" id="home" src="./src/img/me2.jpg">
         <div class="w3-display-middle">
             <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Hi! I am HELEN LUONG.</span>
@@ -48,73 +49,89 @@
     </br>
     </br>
 
-    <div id="about">
-        </br></br>
+    <!-- About Section -->
+    <div id="about" class="about"
+        style="background-color: rgb(215, 228, 238); color: rgb(17, 17, 17); padding: 50px 0;">
         <h1 class="about">Learn <span style="color:blue;">More</span> <br /> About <span style="color:blue;">Me</span>
-    </div>
-    </h1>
-    <div class="w3-col m6 w3-center w3-padding-large">
-        <p>
-            <i class="fa fa-user w3-margin-right"></i>
-            <button class="btn"><a class="links" href="https://www.linkedin.com/in/-helen-luong-/" target="_blank">
-                    <b> Helen Luong </b> </a></button>
-        </p>
-        <img class="myimage" src="./src/img/me.jpg">
+        </h1>
         </br>
-        </br>
-        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top"><a class="links"
-                href="https://drive.google.com/file/d/190ThkSl9s6ipnNoWc6Bv7epQdcsxCa8F/view?usp=sharing">
-                <i class="fa fa-download"></i> Download Resume</a>
-        </button>
-    </div>
-    </br>
-
-    <div class="about-text">
-        <h4><b><em>Who am I?</em></b></h4>
         <p>👩‍🎓 I'm a 4th <b>Computer Science Student</b> from York University,</br> passionate
             about <u>software design and web development</u>. </br></br>
             🖥️ I'm currently seeking <b>Summer 2025 </b>Intern/New-Grad Positions </br>for <u>Front-End, Full
-                Stack, Web & Software Development. </u></br></br>
+                Stack, Web & Software Development.</u></br></br>
             <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>I'm based in Toronto, Canada.
             </br></br>
             🌍 Languages: English & Vietnamese
         </p>
-        </br>
-        <div id="skills">
+
+        <div class="w3-center">
+            <div class="w3-col m6 w3-center w3-padding-large" style="position: relative;">
+                <button class="w3-button resume-btn w3-padding-small w3-margin-top">
+                    <a class="links" href="src/Resume.pdf" download>
+                        <img src="./src/img/resume.png" alt="Resume Icon"
+                            style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;">
+                        Download Resume
+                    </a>
+                </button>
+
+                <div class="arrow left">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="arrow right">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" style="text-align: center;">
             <h3><b><em>My Technical Skills</em></b></h3>
-            <img class="skills" src="./src/img/java.jpg"><b>Java</b></img>
-            <img class="skills" src="./src/img/javascript.png"><b>Javascript</b></img>
-            <img class="skills" src="./src/img/html.png"><b>HTML</b></img>
-            <img class="skills" src="./src/img/react.png"><b>ReactJs</b></img>
+            <img class="skills" src="./src/img/java.jpg" style="margin-right: 10px;"><b>Java</b>
+            <img class="skills" src="./src/img/Csharp.png" style="margin-right: 10px;"><b>C#</b>
+            <img class="skills" src="./src/img/javascript.png" style="margin-right: 10px;"><b>JavaScript</b>
+            <img class="skills" src="./src/img/html.png" style="margin-right: 10px;"><b>HTML</b>
+            <img class="skills" src="./src/img/css.png" style="margin-right: 10px;"><b>CSS</b>
+
+            <h5><b>Frameworks</b></h5>
+            <img class="skills" src="./src/img/react.png" style="margin-right: 10px;"><b>ReactJs</b>
+            <img class="skills" src="./src/img/spark.png" style="margin-right: 10px;"><b>Spark SQL</b>
+            <img class="skills" src="./src/img/react.png" style="margin-right: 10px;"><b>React Native</b>
         </div>
     </div>
+
     </div>
     </br></br></br></br></br>
 
+    <!-- Projects Section -->
     <div id="projects">
         </br></br>
         <h1 class="projects">My Projects</h1>
-        <p class="w3-center"><em>Here are some of my latest projects</em></p><br>
+        <h5 class="w3-center"><em>Here are some of my latest projects</em></h5><br>
+
         <div class="w3-row-padding">
+            <!-- Project 1 -->
             <div class="w3-col s4 w3-center">
                 <div class="w3-card">
                     <div class="container">
-                        <a href="https://tdhluong.github.io/camping-ambience/" target="_blank"><img
-                                src="./src/img/Campfire.jpg" class="image"></a>
+                        <a href="https://tdhluong.github.io/camping-ambience/" target="_blank">
+                            <img src="./src/img/Campfire.jpg" class="image">
+                        </a>
                     </div>
                     <div class="w3-container">
                         <h3>Camping Ambience</h3>
-                        <p class="w3-opacity">Made with HTML, CSS, JavaScript, React framework.</p>
-                        <p>Introducing an interactive project that allows users to toggle between day
-                            and
-                            night modes while seamlessly controlling a music slider, enveloping yourself in the calming
-                            blend of
-                            peaceful melodies on a digital camping retreat, all at your fingertips.
-                        </p>
+                        <p class="w3-opacity">Made with HTML, CSS, JavaScript and React framework.</p>
+                        <p>Introducing an interactive project that allows users to toggle between day and night modes
+                            while seamlessly controlling a music slider, enveloping yourself in the calming blend of
+                            peaceful melodies on a digital camping retreat, all at your fingertips.</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Project 2 -->
             <div class="w3-col s4 w3-center">
                 <div class="w3-card">
                     <div class="container">
@@ -122,51 +139,114 @@
                     </div>
                     <div class="w3-container">
                         <h3>CleanAirTO</h3>
-                        <p class="w3-opacity">Made with TypeScript, React Native framework.</p>
+                        <p class="w3-opacity">Made with TypeScript and React Native framework.</p>
                         <p>Introducing a mobile application to monitor and analyze real-time air pollution data by
                             seamlessly integrating Air Quality Index (AQI) and temperature metrics from Google Maps API
-                            and visualizing them on the map.
-                        </p>
+                            and visualizing them on the map.</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Project 3 -->
             <div class="w3-col s4 w3-center">
                 <div class="w3-card">
                     <div class="container">
-                        <a href="https://tdhluong.github.io/my-website/" target="_blank"><img src="./src/img/myweb.png"
-                                class="image"></a>
+                        <a href="https://tdhluong.github.io/my-website/" target="_blank">
+                            <img src="./src/img/myweb.png" class="image">
+                        </a>
                     </div>
                     <div class="w3-container">
                         <h3>My Website</h3>
-                        <p class="w3-opacity">Made with HTML, CSS.</p>
+                        <p class="w3-opacity">Made with HTML and CSS.</p>
                         <p>Introducing my personal website where you can explore my portfolio, delve into my background
-                            and projects, and find ways to get in touch.
-                        </p>
+                            and projects, and find ways to get in touch.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        </br></br></br></br></br>
+        <br>
 
-        <div id="contact"></div>
+        <div class="w3-row-padding">
+            <!-- Project 4 -->
+            <div class="w3-col s4 w3-center">
+                <div class="w3-card">
+                    <div class="container">
+                        <img src="./src/img/othello1.png" class="image">
+                    </div>
+                    <div class="w3-container">
+                        <h3>Othello</h3>
+                        <p class="w3-opacity">Made with Java (JavaFX).</p>
+                        <p>This project is a two-player Othello game implemented in Java using JavaFX, featuring MVC
+                            architecture, a dynamic GUI for Human vs Human and Human vs Computer modes, and strategy
+                            design patterns for switching between player types and AI strategies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="w3-col s4 w3-center">
+                <div class="w3-card">
+                    <div class="container">
+                        <img src="./src/img/register.png" class="image">
+                    </div>
+                    <div class="w3-container">
+                        <h3>Fitness Class Scheduling</h3>
+                        <p class="w3-opacity">Made with C# (Selenium).</p>
+                        <p>This project is a C# web scraping app using Selenium to automate the registration for weekly
+                            fitness classes, supporting login, program filtering, and class selection based on
+                            availability, location, and predefined time slots.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="w3-col s4 w3-center">
+                <div class="w3-card">
+                    <div class="container">
+                        <img src="./src/img/Buyease.png" class="image">
+                    </div>
+                    <div class="w3-container">
+                        <h3>BuyEase</h3>
+                        <p class="w3-opacity">Made with Node.js, MongoDB, and React.</p>
+                        <p>This project is BuyEase, an e-commerce website developed from scratch, designed for
+                            university students to buy and sell goods and services within their campus community using
+                            Node.js for the back-end server, MongoDB for storing user and item information, and React
+                            for building user interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </br></br></br></br></br>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact"
+        style="background-color: rgb(215, 228, 238); color: rgb(17, 17, 17); padding: 50px 0;">
         <h1 class="contact">Contact Me</h1>
         <p class="w3-center"><em>I'd love to have a chat with you!</em></p>
         <div class="center">
-            <button class="button button1" disabled><i class="fa fa-envelope-o"></i>
-                ltdiemhang00@gmail.com
+            <button class="button button1" disabled>
+                <i class="fa fa-envelope-o"></i> ltdiemhang00@gmail.com
             </button>
-            <button class="button button1"><a class="links" href="https://www.linkedin.com/in/-helen-luong-/"
-                    target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin </a></button>
-            <button class="button button1"><a class="links" href="https://github.com/tdhluong" target="_blank"><i
-                        class="fa fa-github-square"></i> Github</a></button>
+            <button class="button button1">
+                <a class="links" href="https://www.linkedin.com/in/-helen-luong-/" target="_blank">
+                    <i class="fa fa-linkedin-square"></i> Linkedin
+                </a>
+            </button>
+            <button class="button button1">
+                <a class="links" href="https://github.com/tdhluong" target="_blank">
+                    <i class="fa fa-github-square"></i> Github
+                </a>
+            </button>
         </div>
 
+        <!-- Footer -->
         <div class="footer">
             <h5 class="footer-text"> Designed and Built by Helen Luong</h5>
         </div>
-
+    </div>
 </body>
 
 </html>
